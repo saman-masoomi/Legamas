@@ -1,0 +1,1099 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../fonts/eot/IRANSansWeb_Bold.eot');
+	src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/eot/IRANSansWeb_Medium.eot');
+	src: url('../fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/eot/IRANSansWeb_Light.eot');
+	src: url('../fonts/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+	src: url('../fonts/eot/IRANSansWeb_UltraLight.eot');
+	src: url('../fonts/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/eot/IRANSansWeb.eot');
+	src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+body {
+    font-family: IRANSans;
+    font-weight: 300;
+}
+
+a {
+	color: #050505;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@media (max-width: 768px ) { 
+    .container .row .top-row .logo {
+		width: 200px;
+		height: 50px;
+		margin-top: 20px;
+		background-image: url('../images/logo.png');
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+	}
+    
+    .index-sliders {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+ 	.container-fluid .slider {
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		background-color: #fff;
+        margin: 0;
+        padding: 0;
+        float: none;
+        margin-top: 70px;
+	}
+    .container-fluid .slider .rslides {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+	.container-fluid .slider img {
+		width: 100%;
+		height: auto;
+	}
+	.container-fluid .slider-2 {
+		width: 100%;
+		height: 300px;
+		background-color: #fff;
+		margin: 0 auto;
+        display: block;
+/*		position: relative;*/
+	}
+    .container-fluid .slider-2 .rslide1 {
+        width: 100%;
+        height: auto;
+    }
+    .container-fluid .slider-2 .rslide1 li {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+	.container-fluid .slider-2 img {
+		width: 190px;
+		height: 170px;
+        position: relative;
+        right: 50%;
+        margin-right: -95px;
+	}
+	.container-fluid .slider-2 h2 {
+		font-family: IRANSans;
+		font-size: 22px;
+	}
+	.container-fluid .slider-2 p {
+		width: 550px;
+		font-family: IRANSans;
+		font-size: 15px;
+		float: right;
+	}
+	.container-fluid .slider-2 .cataloge {
+		position: relative;
+		top: -250px;
+		right: -100px;
+		float: left;
+		z-index: 999;
+	}
+	.rslides {
+		position: relative;
+		list-style: none;
+		overflow: hidden;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.rslides li {
+		-webkit-backface-visibility: hidden;
+		position: absolute;
+		display: none;
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+	.rslides img {
+		display: block;
+		height: auto;
+		float: right;
+		width: 100%;
+		border: 0;
+	}
+	.rslide1 {
+		position: relative;
+		list-style: none;
+		overflow: hidden;
+		width: 700px;
+		padding: 0;
+		margin: 0;
+	}
+	.rslide1 li {
+		-webkit-backface-visibility: hidden;
+		position: absolute;
+		width: 100%;
+		height: 200px;
+		left: 0px;
+		top: 0;
+		display: flex;
+		flex-direction: row;
+	}
+	.rslide1 img {
+		display: block;
+		height: auto;
+		float: right;
+		width: 340px;
+		border: 0;
+		margin-left: 30px;
+		margin-right: 70px;
+	}
+	.rslide1 li h1 {
+		font-family: 'IRANSans';
+		font-size: 18px;
+	}
+	.rslide1 .slider-text {
+		width: 100%;
+		float: left !important;
+	}
+	.rslide1 .slider-text p {
+		width: 100%;
+		text-align: justify;
+		font-size: 14px;
+		line-height: 25px;
+		font-family: IRANSans;
+	}
+    .mobile-line-dash {
+        width: 100%;
+        height: 5px;
+        border-bottom: 1px dashed #00f3;
+        margin-top: 15px;
+    }
+    
+    .solutions {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .solutions-practise {
+        width: 100%; 
+        height: auto;
+    }
+    
+    .solutions-section {
+        width: 100%;
+    }
+    
+    .solutions-section img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .solutions-section-img {
+        width: auto;
+        height: auto;
+    }
+    
+    .solutions .solutions-section h2.solutions-section-header {
+		width: 100%;
+		height: 60px;
+		background: linear-gradient(#014694, #01317f);
+		margin-top: 0px;
+		color: #fff;
+		font-family: IRANSans;
+		font-size: 17px;
+		line-height: 60px;
+		padding-right: 20px;
+		border-left: 1px solid #3c74c1;
+	}
+	.solutions .solutions-section ul.solutions-section-list {
+		width: 100%;
+		height: auto;
+		background-color: #EEF3FA;
+        padding: 15px 25px 15px 0;
+        margin: -10px 0;
+	}
+	.solutions .solutions-section ul.solutions-section-list li {
+		list-style-type: none;
+		height: 40px;
+		font-family: "arial";
+		color: #050817;
+		font-size: 14px;
+		-webkit-transition: all 2s;
+		transition: all 2s;
+		margin-right: -20px;
+        padding-right: 30px;
+        border-bottom: 1px dashed #B9D1F5;
+        line-height: 40px;
+	}
+    .solutions .solutions-section ul.solutions-section-list li:first-child {
+        margin-top: -10px;
+    }
+    .solutions .solutions-section ul.solutions-section-list li:last-child {
+        margin-bottom: 16px;
+    }
+	.solutions .solutions-section ul.solutions-section-list li:before {
+		content: url(../images/li-image.png);
+		position: relative;
+		left: 12px;
+	}
+	.solutions .solutions-section ul.solutions-section-list li:hover:before {
+		left: 8px;
+	}
+    
+    .solutions .lega-info {
+		width: 100%;
+		height: 360px;
+		padding: 20px;
+		padding-right: 20px;
+	}
+	.solutions .lega-info h3.lega-info-header {
+		font-family: IRANSans;
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.solutions .lega-info p.lega-info-p {
+		font-family: IRANSans;
+		font-size: 12px;
+		margin-bottom: 17px;
+		line-height: 22px;
+		margin-right: 10px;
+	}
+	.solutions .lega-info p.lega-info-p:before {
+		content: url(../images/lega-info-p-image.png);
+		margin-left: 6px;
+	}
+    
+    .solutions-bottom {
+		width: 100%;
+		margin-right: 5px;
+	}
+	.solutions-bottom h3.solutions-bottom-header {
+		font-family: IRANSans;
+		font-size: 19px;
+		margin-bottom: 15px;
+        line-height: 30px;
+	}
+	.solutions-bottom p.solutions-bottom-p {
+		font-family: IRANSans;
+		font-size: 14px;
+		line-height: 26px;
+		margin-bottom: 50px;
+	}
+    
+    .js #menu {
+		display:none;
+        
+	}
+	
+	.js .slicknav_menu {
+        display:block;
+        width: 94%;
+        position: absolute;
+        top: 95px;
+        z-index: 999999;
+        margin-right: 3%;
+	}
+}
+
+@media (min-width: 768px ) {
+    
+    .container {
+        width: 740px important;
+    }
+    
+    .container .row .top-row .logo {
+		width: 200px;
+		height: 50px;
+		margin-top: 20px;
+		background-image: url('../images/logo.png');
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+	}
+    
+    .index-sliders {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+ 	.container-fluid .slider {
+		width: 740px;
+		height: auto;
+		margin: 0 auto;
+		background-color: #fff;
+        margin: 0;
+        padding: 0;
+        float: none;
+	}
+    .container-fluid .slider .rslides {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+	.container-fluid .slider img {
+		width: 100%;
+		height: auto;
+	}
+	.container-fluid .slider-2 {
+		width: 100%;
+		height: 300px;
+		background-color: #fff;
+		margin: 0 auto;
+        display: block;
+/*		position: relative;*/
+	}
+    .container-fluid .slider-2 .rslide1 {
+        width: 100%;
+        height: auto;
+    }
+    .container-fluid .slider-2 .rslide1 li {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+	.container-fluid .slider-2 img {
+		width: 190px;
+		height: 170px;
+        position: relative;
+        right: 50%;
+        margin-right: -95px;
+	}
+	.container-fluid .slider-2 h2 {
+		font-family: IRANSans;
+		font-size: 22px;
+	}
+	.container-fluid .slider-2 p {
+		width: 550px;
+		font-family: IRANSans;
+		font-size: 15px;
+		float: right;
+	}
+	.container-fluid .slider-2 .cataloge {
+		position: relative;
+		top: -250px;
+		right: -100px;
+		float: left;
+		z-index: 999;
+	}
+	.rslides {
+		position: relative;
+		list-style: none;
+		overflow: hidden;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.rslides li {
+		-webkit-backface-visibility: hidden;
+		position: absolute;
+		display: none;
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+	.rslides img {
+		display: block;
+		height: auto;
+		float: right;
+		width: 100%;
+		border: 0;
+	}
+	.rslide1 {
+		position: relative;
+		list-style: none;
+		overflow: hidden;
+		width: 700px;
+		padding: 0;
+		margin: 0;
+	}
+	.rslide1 li {
+		-webkit-backface-visibility: hidden;
+		position: absolute;
+		width: 100%;
+		height: 200px;
+		left: 0px;
+		top: 0;
+		display: flex;
+		flex-direction: row;
+	}
+	.rslide1 img {
+		display: block;
+		height: auto;
+		float: right;
+		width: 340px;
+		border: 0;
+		margin-left: 30px;
+		margin-right: 70px;
+	}
+	.rslide1 li h1 {
+		font-family: 'IRANSans';
+		font-size: 18px;
+	}
+	.rslide1 .slider-text {
+		width: 100%;
+		float: left !important;
+	}
+	.rslide1 .slider-text p {
+		width: 100%;
+		text-align: justify;
+		font-size: 14px;
+		line-height: 25px;
+		font-family: IRANSans;
+	}
+    .mobile-line-dash {
+        width: 100%;
+        height: 5px;
+        border-bottom: 1px dashed #00f3;
+        margin-top: 15px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .container .row .top-row {
+        width: 100%;
+        height: 80px;
+    }
+    .container .row .top-row .top-nav {
+		width: 80%;
+		height: 100%;
+		font-family: IRANSans;
+		text-align: left;
+		margin-top: -20px;
+		color: #050505;
+        float: left;
+	}
+	.container .row .top-row .top-nav li {
+		display: inline-block;
+		width: 80px;
+		height: auto;
+		text-align: center;
+		font-size: 14px;
+		color: #050505;
+		font-family: IRANSans;
+		
+	}
+	.container .row .top-row .top-nav li:first-child {
+		width: 110px;
+	}
+	.container .row .top-row .top-nav li:hover a {
+		background-color: #e6e4e4;
+		padding: 5px;
+		text-decoration: none;
+		color: #050505;
+	}
+	.search {
+		margin-top: 10px;
+		margin-right: 18px;
+	}
+	.search p {
+        width: 100px;
+        height: 30px;
+		position: absolute;
+		top: 10px;
+		left: 0px;
+		font-family: IRANSans;
+		font-size: 12px;
+	}
+	.search input {
+		display: none;
+	}
+	.search button {
+		display: none;
+	}
+	.search .glyphicon {
+		display: none;
+	}
+	.select-language {
+		position: absolute;
+		top: 8px;
+		left: 0px;
+	}
+	.language-select {
+		display: inline-flex;
+		flex-direction: column;
+		color: #fff;
+		text-transform: uppercase;
+		height: 20px;
+		overflow: hidden;
+		cursor: pointer;
+		float: right;
+		font-family: IRANSans;
+	}
+	.language-select li {
+		text-align: center;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		order: 2;
+		padding: 10px;
+		min-height: 20px;
+	}
+	.language-select li:hover {
+		cursor: pointer;
+	}
+	.language-select.open {
+		height: 55px;
+	}
+	.language-select li.active {
+		order: 1;
+		pointer-events: none;
+	}
+/*
+    
+    
+    
+    .slicknav_menu { 
+        position: absolute;
+        width: 740px;
+        top:115px;
+        z-index: 9;
+        right:50%;
+        margin-right: -370px;
+    }
+    
+    
+*/
+    
+    
+    
+}
+
+
+@media (min-width: 992px) { 
+	.container .row .top-row {
+		width: 100%;
+		height: 95px;
+		display: flex;
+		flex-direction: row;
+		margin-top: 20px;
+		overflow: hidden;
+	}
+	.container .row .top-row .logo {
+		width: 200px;
+		height: 50px;
+		margin-top: 20px;
+		background-image: url('../images/logo.png');
+	}
+	.container .row .top-row .top-nav {
+		width: 650px;
+		height: 100%;
+		font-family: IRANSans;
+		text-align: left;
+		margin-top: 46px;
+		color: #050505;
+	}
+	.container .row .top-row .top-nav li {
+		display: inline-block;
+		width: 80px;
+		height: auto;
+		text-align: center;
+		font-size: 14px;
+		color: #050505;
+		font-family: IRANSans;
+		
+	}
+	.container .row .top-row .top-nav li:first-child {
+		width: 110px;
+	}
+	.container .row .top-row .top-nav li:hover a {
+		background-color: #e6e4e4;
+		padding: 5px;
+		text-decoration: none;
+		color: #050505;
+	}
+	.search {
+		margin-top: 10px;
+		margin-right: 18px;
+	}
+	.search p {
+		position: relative;
+		top: -10px;
+		right: 55px;
+		font-family: IRANSans;
+		font-size: 12px;
+	}
+	.search input {
+		width: 240px;
+		height: 30px;
+		border: 1px solid #cdcdcd;
+	}
+	.search button {
+		width: 42px;
+		height: 28px;
+		position: relative;
+		left: -197px;
+        top: -29px;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		background-color: #cdcdcd;
+	}
+	.search .glyphicon {
+		color: #fff;
+	}
+	.select-language {
+		position: relative;
+		top: -98px;
+		left: -130px;
+	}
+	.language-select {
+		display: inline-flex;
+		flex-direction: column;
+		color: #fff;
+		text-transform: uppercase;
+		height: 20px;
+		overflow: hidden;
+		cursor: pointer;
+		float: right;
+		font-family: IRANSans;
+	}
+	.language-select li {
+		text-align: center;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		order: 2;
+		padding: 10px;
+		min-height: 20px;
+	}
+	.language-select li:hover {
+		cursor: pointer;
+	}
+	.language-select.open {
+		height: 55px;
+	}
+	.language-select li.active {
+		order: 1;
+		pointer-events: none;
+	}
+	.container-fluid {
+		background-color: #eef3f9;
+		padding-bottom: 40px;
+		height: 820px;
+	}
+	.container-fluid .slider {
+		width: 1170px;
+		height: 500px;
+		background-color: #fff;
+        position: relative;
+        right: 50%;
+        margin-right: -585px;
+        float: none;
+	}
+	.container-fluid .slider img {
+		width: 100%;
+		height: 500px;
+	}
+	.container-fluid .slider-2 {
+		width: 1170px;
+		height: 270px;
+		background-color: #fff;
+		margin: 0 auto;
+		margin-top: -19px;
+		padding-top: 35px;
+		position: relative;
+	}
+	.container-fluid .slider-2 .small-slider {
+		width: 230px;
+		height: 210px;
+		float: right;
+		margin-right: 30px;
+		margin-left: 20px;
+	}
+	.container-fluid .slider-2 h2 {
+		font-family: IRANSans;
+		font-size: 22px;
+	}
+	.container-fluid .slider-2 p {
+		width: 550px;
+		font-family: IRANSans;
+		font-size: 15px;
+		float: right;
+	}
+	.container-fluid .slider-2 .cataloge {
+		position: relative;
+		top: -250px;
+		right: -100px;
+		float: left;
+		z-index: 999;
+	}
+
+	.rslides {
+		position: relative;
+		list-style: none;
+		overflow: hidden;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	.rslides li {
+		-webkit-backface-visibility: hidden;
+		position: absolute;
+		display: none;
+		width: 100%;
+		left: 0;
+		top: 0;
+	}
+
+	.rslides img {
+		display: block;
+		height: auto;
+		float: right;
+		width: 100%;
+		border: 0;
+	}
+
+	.rslide1 {
+		position: relative;
+		list-style: none;
+		overflow: hidden;
+		width: 700px;
+		padding: 0;
+		margin: 0;
+	}
+	.rslide1 li {
+		-webkit-backface-visibility: hidden;
+		position: absolute;
+		width: 100%;
+		height: 200px;
+		left: 0px;
+		top: 0;
+		display: flex;
+		flex-direction: row;
+	}
+	.rslide1 img {
+		display: block;
+		height: auto;
+		float: right;
+		width: 340px;
+		border: 0;
+		margin-left: 30px;
+		margin-right: 70px;
+	}
+	.rslide1 li h1 {
+		font-family: 'IRANSans';
+		font-size: 18px;
+	}
+	.rslide1 .slider-text {
+		width: 100%;
+		float: left !important;
+	}
+	.rslide1 .slider-text p {
+		width: 100%;
+		text-align: justify;
+		font-size: 14px;
+		line-height: 25px;
+		font-family: IRANSans;
+	}
+	
+	nav.navbar {
+		width: 100% !important;
+		height: 61px !important;
+		position: absolute;
+		z-index: 9999;
+		margin-right: calc(50% - 370px);
+		margin-top: 25px;
+		background-color: rgba(255,255,255,0);
+		border:none;
+	}
+	
+	.navbar-nav {
+		width: 740px;
+		height: 50px;
+		background: linear-gradient(#014694, #01307e);
+		font-family: IRANSans;
+		font-size: 17px;
+		color: #f8f5ee;
+		position: absolute;
+		right: 50%;
+		margin-right: -370px;
+		z-index: 99999;
+		margin-top: 30px;
+	}
+
+	.navbar-nav li.mega-menu-item {
+		display: inline-block;
+		width: 118px;
+		height: 61px;
+		line-height: 60px;
+		text-align: center;
+	}
+	
+	.mega-menu-item a:hover{
+		color:#01307e !important;
+		font-weight: bold;
+	}
+	
+	.glyphicon-menu-down {
+		font-size: 12px !important;
+		margin-right: 5px;
+		margin-top: 3px;
+	}
+	
+	.navbar-nav li.mega-menu-item a {
+		color: #f8f5ee;
+	}
+	
+	.navbar-nav > li > a {
+		color: #f8f5ee !important;
+		padding-left: 5px;
+		font-size: 13px;
+		text-align: center;
+	}
+	
+	.navbar-nav > li > a:hover {
+		color:#01307e !important;
+		font-weight: bold;
+	}
+	
+	.navbar-nav > li > a:active {
+		color:#01307e !important;
+		font-weight: bold;
+	}
+	
+	.navbar-nav>li>.dropdown-menu {
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		height: 800px;
+		position: absolute;
+		right: -16px;
+		width: 1172px;
+		padding: 20px;
+		margin-right:-200px;
+		box-shadow: 1px 2px 7px gray;
+	}
+
+	.mega-dropdown {
+		position: static !important;
+	}
+	.mega-dropdown-menu {
+		width: 100%;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+	}
+	.navbar-nav li ul li {
+		width: 210px;
+		height: 460px;
+		margin-left: 15px;
+		float: right;
+		list-style-type: none;
+	}
+	
+	.navbar-nav li ul li h3 {
+		font-size: 14px;
+		color: #000;
+	}
+	
+	.navbar-nav li ul li img {
+		width: 210px;
+		height: 120px;
+	}
+	
+	.navbar-nav li ul li ul {
+		width: 100%;
+		padding-right: 15px;
+	}
+	.navbar-nav li ul li ul li {
+		width: 100%;
+		height: 30px;
+		line-height: 35px;
+		font-size: 13px;
+		padding-right: 8px;
+		color: #000;
+	}
+	.navbar-nav li ul li ul li:before {
+		content: url(../images/li-image.png);
+		padding-left: 10px;
+	}
+	
+	.solutions {
+		width: 100%;
+		height: 410px;
+		display: flex;
+		flex-direction: row;
+		padding-right: 60px;
+	}
+	.solutions .solutions-practise {
+		width: 70%;
+		height: 400px;
+		display: flex;
+		flex-direction: row;
+	}
+	.solutions .solutions-practise h3 {
+		font-family: IRANSans;
+		font-size: 20px;
+		position: absolute;
+		margin-top: -55px;
+	}
+	.solutions .solutions-section {
+		width: 33%;
+		height: 400px;
+		background-color: #eef3f9;
+	}
+	.solutions .solutions-section img.solutions-section-img {
+		width: 100%;
+		height: auto;
+	}
+	.solutions .solutions-section h2.solutions-section-header {
+		width: 100%;
+		height: 60px;
+		background: linear-gradient(#014694, #01317f);
+		margin-top: 0px;
+		color: #fff;
+		font-family: IRANSans;
+		font-size: 17px;
+		line-height: 60px;
+		padding-right: 20px;
+		border-left: 1px solid #3c74c1;
+	}
+	.solutions .solutions-section ul.solutions-section-list {
+		width: 100%;
+		height: auto;
+		margin-right: 20px;
+		margin-top: 15px;
+	}
+	.solutions .solutions-section ul.solutions-section-list li {
+		list-style-type: none;
+		height: 30px;
+		font-family: "arial";
+		color: #050817;
+		font-size: 14px;
+		-webkit-transition: all 2s;
+		transition: all 2s;
+		margin-right: 12px;
+	}
+	.solutions .solutions-section ul.solutions-section-list li:before {
+		content: url(../images/li-image.png);
+		position: relative;
+		left: 12px;
+	}
+	.solutions .solutions-section ul.solutions-section-list li:hover:before {
+		left: 8px;
+	}
+	.solutions .lega-info {
+		width: 30%;
+		height: 450px;
+		padding: 20px;
+		margin-top: -80px;
+		padding-right: 40px;
+	}
+	.solutions .lega-info h3.lega-info-header {
+		font-family: IRANSans;
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.solutions .lega-info p.lega-info-p {
+		font-family: IRANSans;
+		font-size: 12px;
+		margin-bottom: 17px;
+		line-height: 22px;
+		;
+	}
+	.solutions .lega-info p.lega-info-p:before {
+		content: url(../images/lega-info-p-image.png);
+		margin-left: 6px;
+	}
+	.solutions-bottom {
+		width: 65%;
+		margin-right: 45px;
+	}
+	.solutions-bottom h3.solutions-bottom-header {
+		font-family: IRANSans;
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+	.solutions-bottom p.solutions-bottom-p {
+		font-family: IRANSans;
+		font-size: 14px;
+		line-height: 26px;
+		margin-bottom: 90px;
+	}
+	footer {
+		width: 100%;
+		height: 120px;
+		font-family: IRANSans;
+	}
+	footer .footer-logo {
+		float: left;
+	}
+	footer .footer-reserved {
+		width: 100%;
+	}
+	footer .footer-reserved .right-text {
+		width: 50%;
+		float: right;
+		margin-top: 12px;
+		color: #050817;
+	}
+	footer .footer-reserved .right-text img {
+		float: right;
+		margin-left: 10px;
+	}
+	footer .footer-reserved .left-text {
+		width: 50%;
+		float: left;
+		text-align: left;
+		margin-top: 12px;
+		color: #050817;
+	}
+}
+
